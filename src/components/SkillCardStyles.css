@@ -1,0 +1,33 @@
+
+.Skill-Container{
+    display: grid;
+    grid-template-columns: repeat(6,3fr);
+    text-align: center;
+    grid-gap: 20px;
+    padding-bottom: 20px;
+}
+.Skill-Container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+   
+}
+
+
+/* .Skill-Container img:hover{
+    transform: scale(1.1);
+} */
+
+@media screen and (max-width:740px){
+    .Skill-Container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .Skill-Container img{
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+       
+    }
+}
